@@ -1,0 +1,64 @@
+/* RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./bg.jpg');
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #000000C0;
+}
+
+.title{
+    font-size: calc(10px + 3vw);
+}
+
+.title p{
+    font-size: calc(10px + 1vw);
+}
+
+.countdown{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+}
+
+.countdown h1{
+    font-size: calc(10px + 8vw);
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+.button{
+    background-color: transparent;
+    color: whitesmoke;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.button:hover{
+    transform: skew(-10deg);
+}
+
+.button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
